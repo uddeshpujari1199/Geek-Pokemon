@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+.upperDiv{
+        padding: 20px;
+}
+.upperDiv select{
+    padding: 8px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+button{
+    padding: 8px;
+    width: 100px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+input{
+    height: 30px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.serch-pokmon span{
+    padding-bottom: 20px;
+    background-color: white;
+    width: 100%;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pokemons-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.pokemonCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #5B84B1FF;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#pokemons-list div span{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}

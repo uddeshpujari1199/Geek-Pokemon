@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #pokemons-list {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body onload="fetchPokenmonType()">
+    <div id="main">
+        <h1> GeekMon </h1>
+
+        <div class="upperDiv">
+            <select id="pokemon-types">
+            </select>
+            <button onclick="fetchPokemonOnType()"> Filter by Type </button>
+            <button onclick="resetPokemon()">Reset</button>
+
+        </div>
+
+         <div class="serchdiv">
+            <input type="text" id="pokemon-name" />
+            <button onclick="pokemonserchHandler()"> Search </button>
+        </div>
+        <div id="pokemon-img">
+
+        </div>
+
+
+        <div id="pokemons-list">
+
+        </div>
+    </div>
+
+    <script>
+
+        // window.addEventListener('domcontentloaded', () => {})
+        // window.onload = fetchPokenmonType
+
+
+
+
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
